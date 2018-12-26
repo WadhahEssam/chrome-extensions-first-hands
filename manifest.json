@@ -2,7 +2,7 @@
     "name": "Wallpaper Changer",
     "version": "1.0",
     "description": "changes the background of the google chrome developer website < used for training.",
-    "permissions": ["storage", "declarativeContent"],
+    "permissions": ["storage", "declarativeContent", "activeTab"],
     "background": {
         "scripts": ["background.js"],
         "persistent": false
@@ -22,6 +22,5 @@
             "128": "images/get_started128.png"
         }
     },
-
     "manifest_version": 2
 }
