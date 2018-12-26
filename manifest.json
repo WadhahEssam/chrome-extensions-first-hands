@@ -3,6 +3,7 @@
     "version": "1.0",
     "description": "changes the background of the google chrome developer website < used for training.",
     "permissions": ["storage", "declarativeContent", "activeTab"],
+    "options_page":"options.html",
     "background": {
         "scripts": ["background.js"],
         "persistent": false
